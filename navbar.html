@@ -18,7 +18,7 @@
         section {
             height: 100vh;
             background-color: #ccc;
-            padding-top: 80pxi;
+            padding-top: 80px;
         }
 
         header {
@@ -27,12 +27,19 @@
             left: 0;
             background-color: aliceblue;
         }
+
+        .gridd {
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            margin-top: 10px;
+        }
     </style>
 </head>
 
 <body>
 
-    <header id="cabeçalho">
+    <header id="cabecalho">
         <div class="navbar navbar-expand-lg">
             <div class="container">
                 <h1>Titulo do site</h1>
@@ -50,6 +57,26 @@
             </div>
         </div>
     </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="gridd">
+                    ..
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="gridd">
+                    ..
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="gridd">
+                    ..
+                </div>
+            </div>
+
+        </div>
+    </div>
     <div data-bs-spy="scroll" data-bs-target="#cabecalho">
         <section id="inicio">
             <h2>Inicio</h2>
